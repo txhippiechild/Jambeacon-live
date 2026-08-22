@@ -1,5 +1,5 @@
-const CACHE_NAME = 'jambeacon-site-v2';
-const STATIC = ['/site.css?v=2','/site.js?v=2','/avatar-male.png','/avatar-female.png','/jam-chat-scene.png','/jambeacon-icon.svg'];
+const CACHE_NAME = 'jambeacon-site-v3';
+const STATIC = ['/site.css?v=2','/site.js?v=2','/app/','/assets/index-lIKGNny-.js','/assets/index-DUI43q4V.css','/avatar-male.png','/avatar-female.png','/jam-chat-scene.png','/jambeacon-icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(STATIC)));
   self.skipWaiting();
