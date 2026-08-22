@@ -1,1 +1,7 @@
-{"scripts":{"start":"serve ."},"dependencies":{}}
+{
+  "scripts": {
+    "start": "serve .",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {}
+}
