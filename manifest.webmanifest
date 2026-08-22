@@ -1,0 +1,19 @@
+{
+  "name": "JamBeacon Avatar App",
+  "short_name": "JamBeacon",
+  "description": "Build your rockstar, find nearby musicians, and make songs together.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#050607",
+  "theme_color": "#050607",
+  "icons": [
+    {
+      "src": "/jambeacon-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
