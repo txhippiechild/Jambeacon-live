@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">JamBeacon app icon</title>
+  <rect width="512" height="512" rx="118" fill="#08090b"/>
+  <circle cx="256" cy="256" r="198" fill="none" stroke="#c7ff13" stroke-width="18"/>
+  <circle cx="256" cy="256" r="164" fill="none" stroke="#14cdf0" stroke-width="5" opacity=".55"/>
+  <path d="M288 70 146 280h93l-30 162 157-236h-96z" fill="#c7ff13" stroke="#050607" stroke-width="12" stroke-linejoin="round"/>
+  <text x="256" y="304" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="116" font-weight="900" fill="#050607">JB</text>
+</svg>

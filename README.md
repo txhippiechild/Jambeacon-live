@@ -1,3 +1,3 @@
-# Jambeacon-live
+# JamBeacon Live
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/txhippiechild/Jambeacon-live)
+Production-ready static build of the JamBeacon avatar web app.
