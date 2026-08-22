@@ -3,24 +3,131 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#050607" />
-    <meta name="description" content="Build your rockstar, find nearby musicians, and make songs together." />
+    <meta name="theme-color" content="#07080a" />
+    <meta name="description" content="JamBeacon helps local musicians find nearby players, connect safely, and make songs together." />
     <meta property="og:title" content="JamBeacon — Find People. Make Songs." />
-    <meta property="og:description" content="Avatar-powered local musician discovery, safe Beacon matching, jam chat, and collaboration challenges." />
+    <meta property="og:description" content="Build your rockstar, light your approximate Beacon, and find your missing player." />
     <meta property="og:image" content="https://jambeacon.com/og.png" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="JamBeacon — Find People. Make Songs." />
-    <meta name="twitter:description" content="Build your rockstar, find nearby musicians, and make songs together." />
-    <meta name="twitter:image" content="https://jambeacon.com/og.png" />
-    <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="icon" href="/jambeacon-icon.svg" />
     <link rel="apple-touch-icon" href="/jambeacon-icon.svg" />
-    <title>JamBeacon Avatar App</title>
-    <script type="module" crossorigin src="/assets/index-lIKGNny-.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DUI43q4V.css">
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/site.css?v=2" />
+    <title>JamBeacon — Find Your Missing Player</title>
   </head>
   <body>
-    <div id="root"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="JamBeacon home">
+        <span class="brand-bolt">⚡</span>
+        <span><strong>JAM<em>BEACON</em></strong><small>FIND PEOPLE. MAKE SONGS.</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#how">How it works</a>
+        <a href="#avatars">Avatars</a>
+        <a href="#safety">Safety</a>
+        <a href="#access">Access</a>
+      </nav>
+      <a class="header-cta" href="#access">Join • $9.99</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><i></i> THE LOCAL MUSIC NETWORK FOR ACTUAL JAMS</p>
+          <h1>Find your<br /><span>missing</span><br />player.</h1>
+          <p class="hero-lede">See who’s ready nearby. Meet through your avatars, plan a safe jam, and turn the first good idea into a song you made together.</p>
+          <div class="hero-actions">
+            <a class="button button-lime" href="#avatars">Build your rockstar <b>↗</b></a>
+            <a class="button button-ghost" href="#how">See how it works</a>
+          </div>
+          <div class="trust-row"><span>◉ Approximate location only</span><span>♫ Collaboration first</span><span>⚡ Live jam status</span></div>
+        </div>
+
+        <div class="hero-world" aria-label="JamBeacon avatars around a privacy-safe beacon">
+          <div class="radar radar-one"></div><div class="radar radar-two"></div><div class="radar radar-three"></div>
+          <div class="avatar-card avatar-card-main">
+            <img src="/avatar-male.png" alt="Guitarist JamBeacon avatar" />
+            <div><b>TEXAS HIPPIE CHILD</b><span><i></i> JAM NOW • GUITAR</span></div>
+          </div>
+          <div class="avatar-card avatar-card-side">
+            <img src="/avatar-female.png" alt="Drummer JamBeacon avatar" />
+            <div><b>MAYA R.</b><span>DRUMS • 0.8 MI</span></div>
+          </div>
+          <div class="signal-pill signal-one"><img src="/avatar-female.png" alt="" /><span><b>ZOE</b>VOCALS • 4.2 MI</span></div>
+          <div class="signal-pill signal-two"><img src="/avatar-male.png" alt="" /><span><b>DRE</b>DRUMS • 2.4 MI</span></div>
+          <div class="privacy-chip">◎ APPROXIMATE 5-MILE AREA</div>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true"><div>BUILD YOUR ROCKSTAR ✦ LIGHT YOUR BEACON ✦ MEET SAFELY ✦ OPEN A JAM ROOM ✦ MAKE A SONG ✦ BUILD YOUR ROCKSTAR ✦</div></div>
+
+      <section id="how" class="section how-section">
+        <div class="section-head">
+          <p>01 / HOW JAMBEACON WORKS</p>
+          <h2>Less posting.<br /><span>More playing.</span></h2>
+          <div><p>A profile tells people what you play. JamBeacon is built around what happens after they find you.</p><strong>Signal that you’re available, connect with a musician nearby, and create something together.</strong></div>
+        </div>
+        <div class="step-grid">
+          <article><span>01</span><div class="step-icon lime">✦</div><h3>Build your rockstar</h3><p>Choose your avatar, sound, instrument, and starter gear. Your profile feels like you without exposing private details.</p></article>
+          <article><span>02</span><div class="step-icon cyan">◎</div><h3>Light your Beacon</h3><p>Go live when you want to jam. Nearby musicians see an intentionally shifted point—not your exact location.</p></article>
+          <article><span>03</span><div class="step-icon orange">♫</div><h3>Make the first track</h3><p>Chat through avatars, open a collab room, pick a loop, and record your parts together inside JamBeacon.</p></article>
+        </div>
+      </section>
+
+      <section id="avatars" class="section avatar-section">
+        <div class="avatar-showcase">
+          <div class="showcase-copy">
+            <p class="section-label">02 / YOUR MUSICIAN, YOUR WORLD</p>
+            <h2>Meet avatar<br />to avatar.</h2>
+            <p>Build a recognizable music identity, earn new looks through collaborations, and talk in scenes made for musicians—not another empty social feed.</p>
+            <ul><li><b>First Act gear</b> included</li><li>Unlock care packages by finishing collabs</li><li>Generic guitars, outfits, stages, and gear</li></ul>
+          </div>
+          <div class="scene-card">
+            <img src="/jam-chat-scene.png" alt="Two JamBeacon musician avatars planning a collaboration in a music bar" />
+            <div class="bubble bubble-left">Want to build a track?</div><div class="bubble bubble-right">Yeah—send the loop. ⚡</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="safety" class="section safety-section">
+        <div class="map-panel">
+          <div class="map-lines"></div>
+          <div class="map-center">▲<small>YOU</small></div>
+          <div class="map-person mp-one"><img src="/avatar-female.png" alt="Nearby singer avatar" /></div>
+          <div class="map-person mp-two"><img src="/avatar-male.png" alt="Nearby drummer avatar" /></div>
+          <div class="map-person mp-three"><img src="/avatar-female.png" alt="Nearby guitarist avatar" /></div>
+          <div class="map-caption"><b>5 MUSICIANS NEARBY</b><span>Inside your privacy area</span></div>
+        </div>
+        <div class="safety-copy">
+          <p class="section-label">03 / PRIVACY FIRST</p>
+          <h2>Near you.<br /><span>Never on you.</span></h2>
+          <p>Your Beacon is shown only inside an approximate five-mile area. JamBeacon never puts your home or precise location on the public map.</p>
+          <div class="safety-points"><div><b>5 MI</b><span>Approximate area</span></div><div><b>ID</b><span>Verification before Beacon</span></div><div><b>YOU</b><span>Control your live status</span></div></div>
+        </div>
+      </section>
+
+      <section class="section create-section">
+        <div class="create-head"><p class="section-label">04 / THE FIRST SONG</p><h2>Don’t let the<br /><span>riff die.</span></h2><p>Every accepted jam opens a place to make something—not just another dead message thread.</p></div>
+        <div class="flow-row">
+          <article><b>1</b><span>SIGNAL</span><p>Turn your Beacon on.</p></article><i>→</i>
+          <article><b>2</b><span>CONNECT</span><p>Pick a nearby player.</p></article><i>→</i>
+          <article><b>3</b><span>RECORD</span><p>Choose a loop and play.</p></article><i>→</i>
+          <article><b>4</b><span>COLLAB</span><p>Finish a track together.</p></article>
+        </div>
+      </section>
+
+      <section id="access" class="section access-section">
+        <div class="access-card">
+          <div><p class="section-label">FOUNDING ACCESS</p><h2>Start your first signal.</h2><p>Create your profile and avatar during the three-day trial. One payment unlocks your Beacon and the full collaboration experience.</p></div>
+          <div class="price"><small>ONE-TIME ACCESS</small><strong><sup>$</sup>9.99</strong><span>No monthly membership fee</span><button type="button" class="button button-lime checkout-button">JOIN JAMBEACON <b>↗</b></button><em>Secure checkout is the next connection step.</em></div>
+        </div>
+      </section>
+    </main>
+
+    <footer><a class="brand footer-brand" href="#top"><span class="brand-bolt">⚡</span><span><strong>JAM<em>BEACON</em></strong><small>FIND PEOPLE. MAKE SONGS.</small></span></a><p>Built for musicians who are ready to make something.</p><span>© 2026 JamBeacon</span></footer>
+    <div class="site-toast" role="status" aria-live="polite"></div>
+    <script src="/site.js?v=2" defer></script>
   </body>
 </html>
