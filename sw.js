@@ -1,13 +1,13 @@
-const CACHE_NAME = 'jambeacon-site-v8';
+const CACHE_NAME = 'jambeacon-site-v9';
 const STATIC = [
   '/site.css?v=2',
   '/site.js?v=2',
   '/app/',
-  '/assets/index-DK0d-042.js',
+  '/assets/index-BAu4sn95.js',
   '/assets/index-CSLys_NW.css',
   '/avatar-male.png',
   '/avatar-female.png',
-  '/tx-hippie-child.png',
+  '/tx-hippie-child.webp',
   '/jam-chat-scene.png',
   '/jambeacon-icon.svg',
   '/audio/loops/texas-rock-120bpm.mp3',
