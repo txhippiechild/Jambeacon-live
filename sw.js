@@ -1,10 +1,10 @@
-const CACHE_NAME = 'jambeacon-site-v9';
+const CACHE_NAME = 'jambeacon-site-v10';
 const STATIC = [
   '/site.css?v=2',
   '/site.js?v=2',
   '/app/',
-  '/assets/index-BAu4sn95.js',
-  '/assets/index-CSLys_NW.css',
+  '/assets/index-CIwYlpB1.js',
+  '/assets/index-BfCsbK-t.css',
   '/avatar-male.png',
   '/avatar-female.png',
   '/tx-hippie-child.webp',
