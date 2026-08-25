@@ -1,0 +1,38 @@
+.phone-app:has(.bottom-nav) .screen-scroll {
+  height: calc(100dvh - 140px);
+}
+
+.screen {
+  padding-bottom: 24px;
+}
+
+.chat-scene {
+  height: clamp(155px, 24vh, 220px);
+  min-height: 0;
+  background: linear-gradient(to bottom, transparent 78%, #090a0d 100%), url('/jam-chat-scene.webp') center / cover no-repeat;
+}
+
+.campaign-story-head > span { color: #bd7bff; }
+.campaign-story-head p { color: #c6cad1; }
+.campaign-act { border-color: #3a4049; background: #0d1014; }
+.campaign-act-head small { color: #c0c4cb; }
+.campaign-challenge { border-color: #363c45; background: #15191e; }
+.campaign-challenge b { color: #fff; }
+.campaign-challenge p { color: #c1c5cc; }
+.campaign-challenge small { color: #aeb4bd; }
+.campaign-challenge.locked { opacity: 1; }
+.campaign-challenge.locked > i { opacity: .72; }
+
+.mini-avatar .host-avatar,
+.chat-avatar .host-avatar,
+.team-faces .host-avatar {
+  scale: 1.7;
+  transform-origin: 50% 24%;
+  clip-path: circle(48%);
+}
+
+@media (min-width: 1024px) {
+  .phone-app:has(.bottom-nav) .screen-scroll {
+    height: calc(100% - 140px);
+  }
+}
