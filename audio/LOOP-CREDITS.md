@@ -1,23 +1,27 @@
-# JamBeacon Starter Grooves
+# JamBeacon Loop Library
 
-JamBeacon includes four starter drum grooves for the in-app collaboration recorder. The audio files are lightweight MP3 copies prepared for browser playback; the source pages below document the original CC0 releases.
+The v2 library contains twelve arrangements created specifically for JamBeacon from public-domain CC0 drum one-shots. These are new rhythmic arrangements and mixes, not copies of another loop app.
 
-## Included grooves
+## Included arrangements
 
-- **Texas Rock** — adapted from “01 - M2K1 - 8 Bar Drum Loop - Key - Master.wav” by fsGreat. 8 bars at 120 BPM, 4/4.
-  Source: https://beta.freesound.org/people/fsGreat/sounds/439393/
-  License: CC0 — https://creativecommons.org/publicdomain/zero/1.0/
+- Texas Thunder — 8 bars, 120 BPM, 4/4
+- Lone Star Shuffle — 4 bars, 105 BPM, 4/4
+- Funk Highway — 4 bars, 102 BPM, 4/4
+- Garage Stomp — 4 bars, 128 BPM, 4/4
+- Midnight Pocket — 4 bars, 92 BPM, 4/4
+- Arena Drive — 4 bars, 135 BPM, 4/4
+- Blues Six — 4 bars, 84 BPM, 6/8
+- Southern Half-Time — 4 bars, 76 BPM, 4/4
+- Neon Punk — 4 bars, 172 BPM, 4/4
+- Heavy Crown — 4 bars, 145 BPM, 4/4
+- Desert Reggae — 4 bars, 88 BPM, 4/4
+- Breakbeat Chase — 4 bars, 110 BPM, 4/4
 
-- **Funky Road** — adapted from “drum_loop_4bars_100bpm.wav” by lezaarth. 4 bars at 100 BPM, 4/4.
-  Source: https://freesound.org/people/lezaarth/sounds/242590/
-  License: CC0 — https://creativecommons.org/publicdomain/zero/1.0/
+## Source samples and license
 
-- **Hip-Hop Pocket** — adapted from “Drumloop 'Wey' - 4 bar - 90 BPM (no swing)” by Bronxio. 4 bars at 90 BPM, 4/4.
-  Source: https://freesound.org/people/Bronxio/sounds/240099/
-  License: CC0 — https://creativecommons.org/publicdomain/zero/1.0/
+The source one-shots come from Sonic Pi’s sample collection. Sonic Pi documents the relevant non-Arovane samples as public domain under the Creative Commons CC0 dedication:
 
-- **Odd-Time Breakbeat** — adapted from “Drumloop 3/4 breakbeats 1 - 4 bar - 135 BPM” by Bronxio. 4 bars at 135 BPM, 3/4.
-  Source: https://freesound.org/people/Bronxio/sounds/240097/
-  License: CC0 — https://creativecommons.org/publicdomain/zero/1.0/
+- Source and sample inventory: https://github.com/sonic-pi-net/sonic-pi/blob/25baaed3c28003bf141f591081217136194b0d69/etc/samples/README.md
+- CC0 1.0 dedication: https://creativecommons.org/publicdomain/zero/1.0/
 
-JamBeacon credits the original creators even where the CC0 dedication does not require attribution.
+The arrangements were assembled by the JamBeacon project’s `scripts/build_loops.py` build script. The source sample files themselves are not redistributed in this repository; only the finished JamBeacon MP3 arrangements are included.
